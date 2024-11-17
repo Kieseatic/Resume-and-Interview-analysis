@@ -54,6 +54,7 @@ def match_jobs(resume_text, all_job_descriptions):
             "details": job,
             "explanation": explanation  # Add detailed analytics
         })
+    
 
     # Sort job matches by score in descending order
     job_matches = sorted(job_matches, key=lambda x: x["score"], reverse=True)

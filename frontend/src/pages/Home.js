@@ -16,7 +16,7 @@ const Home = () => {
             }}
         >
             <Typography variant="h3" fontWeight="bold" gutterBottom>
-                Welcome to ATS AI Project
+                Welcome to Resume and Interview Analysis Project
             </Typography>
             <Typography variant="subtitle1" gutterBottom>
                 Analyze interviews, resumes, and job descriptions with ease!
