@@ -79,7 +79,7 @@ The **ATS AI Project** leverages artificial intelligence to simplify the recruit
    ```
 
 ### **To Start the Server**
-3. Conurrently starting the backend and frontend together(In the root directory):
+1. Concurrently starting the backend and frontend together(In the root directory):
    ```bash
    npm run start:both
    ```
@@ -124,25 +124,6 @@ The **ATS AI Project** leverages artificial intelligence to simplify the recruit
 - **Enhanced Analysis:** Incorporate sentiment analysis for better interview evaluation.
 - **Multi-language Support:** Extend functionality to analyze resumes and interviews in different languages.
 - **Mobile App Integration:** Develop a mobile-friendly version of the platform.
-
----
-
-## **Contributing**
-Contributions are welcome! Follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Submit a pull request.
 
 ---
 
