@@ -108,10 +108,12 @@ The **ATS AI Project** leverages artificial intelligence to simplify the recruit
 
 ## **Screenshots**
 **Resume Analysis**  
-*(Add screenshots of the resume analysis page with match details.)*
+![Resume Analysis Screenshot](assets/resume-screen.jpg)
+
 
 **Interview Analysis**  
-*(Add screenshots of the interview analysis page with transcriptions and feedback.)*
+![Interview Analysis Screenshot](assets/interview-screen.jpg)
+
 
 ---
 
