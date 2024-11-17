@@ -62,10 +62,7 @@ The **ATS AI Project** leverages artificial intelligence to simplify the recruit
    ```bash
    npm install
    ```
-3. Start the development server:
-   ```bash
-   npm start
-   ```
+
 
 ### **Backend**
 1. Navigate to the `backend` folder:
@@ -79,6 +76,12 @@ The **ATS AI Project** leverages artificial intelligence to simplify the recruit
 3. Start the backend server:
    ```bash
    python app.py
+   ```
+
+### **To Start the Server**
+3. Conurrently starting the backend and frontend together(In the root directory):
+   ```bash
+   npm run start:both
    ```
 
 ### **To Run the App**
