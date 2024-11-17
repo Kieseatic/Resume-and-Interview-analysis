@@ -149,7 +149,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## **Contact**
 - **Name:** Harsh Dugar
 - **Email:** harshdugar1234@gmail.com 
-- **GitHub:** [@your-username](https://github.com/kieseatic)  
-- **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/harsh3239/)
+- **GitHub:** [@kieseatic](https://github.com/kieseatic)  
+- **LinkedIn:** [Harsh Dugar](https://www.linkedin.com/in/harsh3239/)
 
 ---
