@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# **ATS AI Project: Automated Resume and Interview Analyzer**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A cutting-edge platform designed to streamline hiring processes by automating interview analysis and resume-job matching using AI-powered tools.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Table of Contents**
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Setup and Installation](#setup-and-installation)
+- [How It Works](#how-it-works)
+- [Screenshots](#screenshots)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Overview**
+The **ATS AI Project** leverages artificial intelligence to simplify the recruitment process by analyzing resumes and interview videos. It evaluates candidates’ skills, experience, and qualifications to match them with job descriptions, providing recruiters with actionable insights.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **Features**
+- **Resume Analysis:**
+  - Extracts text from uploaded resumes.
+  - Matches resumes with job descriptions based on skills, qualifications, and contextual similarity.
+  - Generates detailed analytics, including keyword matching and overall fit scores.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Interview Analysis:**
+  - Transcribes interview videos using OpenAI Whisper API.
+  - Evaluates interview answers for keyword relevance and context.
+  - Provides feedback on interview performance.
 
-### `npm run build`
+- **User-Friendly Interface:**
+  - Intuitive UI built with Material-UI for seamless navigation.
+  - Real-time progress indicators for file uploads.
+  - Comprehensive visual representation of analysis results.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Tech Stack**
+- **Frontend:** React.js, Material-UI
+- **Backend:** Flask (Python), REST APIs
+- **AI Tools:** OpenAI Whisper API
+- **Database:** MongoDB
+- **Deployment:** Docker, AWS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **Setup and Installation**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **Frontend**
+1. Navigate to the `frontend` folder:
+   ```bash
+   cd frontend

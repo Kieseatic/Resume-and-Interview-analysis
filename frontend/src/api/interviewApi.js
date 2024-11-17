@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const backendURL = process.env.REACT_APP_BACKEND_URL;
-console.log("Backend URL:", backendURL); // Check if the variable is loaded
+console.log("Backend URL:", backendURL); 
 
 // Function to upload interview
 export const uploadInterview = async (formData) => {

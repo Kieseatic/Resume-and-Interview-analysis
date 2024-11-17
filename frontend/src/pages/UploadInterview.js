@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { uploadInterview, analyzeInterview } from "../api/interviewApi";
-import AnalysisResult from "../components/AnalysisResult"; // Import the AnalysisResult component
+import AnalysisResult from "../components/AnalysisResult"; 
 import {
     Box,
     Button,
@@ -11,7 +11,7 @@ import {
     Paper,
     LinearProgress,
 } from "@mui/material";
-import axios from "axios"; // Import axios directly if `uploadInterview` does not handle progress.
+import axios from "axios"; 
 
 const UploadInterview = () => {
     const [file, setFile] = useState(null);
